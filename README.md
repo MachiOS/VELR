@@ -23,3 +23,5 @@ bash run_all.sh -d cifar10_classifier/labeled_data500/ -a datasets/cifar/data -b
 ```
 bash run_all.sh -d cifar100_classifier/labeled_data500/ -a datasets/cifar/data -b 32 -n 2000 -e 10000 -i 2000 -t 5000 -s CIFAR100 -m model -j 0 -k 20 -p 3
 ```
+
+# small change
