@@ -5,7 +5,7 @@
 ```
 bash run_all.sh -d < directory to store trained outputs in> -a <dataset directory> -b <batch_size> -n <Number of training steps> -e <evaluation data size> -i <evaluate every i steps> -t <number of labeld samples> -s <name of the dataset -m model -j <start model number> -k <end model number> -p <number of paralels process to run>
 ```
-Runs files in the order:
+The script runs files in this order:
 - run_classifier_cifar.py
 - get_minprob_mean_pool.py 
 - get_minprob_GMM_v2.py or get_minprob_mnist_v2.py (change the script accordingly)
